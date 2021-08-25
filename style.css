@@ -1,0 +1,244 @@
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#top{
+	background-image: url(img/header.jpg);
+	width: 1920px;
+	height: 830px;
+	position: relative;
+
+
+}
+
+
+.navbar-collapse {
+  flex-grow: 0;
+ }
+
+
+ .menu ul li{
+ 	margin: 0px 16px;
+
+ }
+
+ .menu ul li a{
+ 	color:#fff !important ;
+ }
+ 
+ .menu ul li:nth-last-child(1){
+ 	
+ 	margin-right: 0px;
+
+ }
+
+.banner-text h1{
+	width: 75%;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 60px;
+	font-weight: 600;
+
+
+}
+
+.banner-text p{
+	width: 60%;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+    margin-top: 40px;
+    font-size: 20px;
+  
+}
+
+.BannerBtn{
+	text-align: center;
+	margin-top: 50px;
+
+	
+	
+
+}
+
+.BannerBtn a{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid red;
+	padding: 10px 20px;
+	margin-left: 15px;
+	font-weight: 700;
+
+}
+
+
+
+
+.BannerBtn a:hover{
+	background-color: red;
+	color: #fff;
+
+}
+
+.banner-text{
+	text-align: center;
+	margin-top: 144px;
+	position: relative;
+
+}
+
+
+.BannerBtn a:nth-child(1){
+	background-color: red;
+	padding: 10px 30px;
+
+}
+
+
+
+.overlay{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.menu{
+	padding-top: 20px;
+}
+
+.single-line{
+	width: 220px;
+	height: 5px;
+	background-color: red;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.banner-text span{
+	color: red;
+}
+
+.service-item{
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+	padding: 50px 20px;
+
+}
+
+
+.service-item h5{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 45px;
+}
+
+
+.service-item p{
+
+	color: #fff;
+	font-size: 15px;
+	margin-top: 20px;
+	
+
+}
+
+.piash-line{
+	width: 70px;
+	height: 5px;
+	background-color: #fff;
+	left: 0px;
+	margin: 20px 0px;
+	
+
+}
+
+.menu ul li a::after{
+	content: "";
+	display: block;
+	width: 0%;
+	height: 2px;
+	clear: both;
+	background-color: red;
+	margin-top: 10px;
+	position: absolute;
+	
+
+}
+
+.nav-link{
+	position:relative;
+	padding: 0px;
+}
+
+
+.menu ul li a:hover::after{
+	width: 100%;
+	}
+
+
+.serviceshort-area{
+	margin-top: -60px;
+	position:relative;}
+
+  
+  #businessplan{
+
+  	margin: 80px 60px 0px 60px;
+  	background-color: #202b30;
+
+  }
+
+  .businessplanContent h2{
+  	color: #fff;
+  	font-size: 35px;
+  	width: 90%;
+
+  }
+
+  .businessplanContent p{
+  	color: #fff;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+  }
+
+   .businessplanContent a{
+
+   	  color: #fff;
+	font-size: 15px;
+	border: 2px solid #fff;
+	padding: 10px 30px;
+	text-decoration: none;
+	
+   }
+
+  
+
+ .piashbhai{
+ 		padding: 30px 0px;
+ }
+
+ .col-md-6{
+ 
+ 	padding: 30px 0px;
+ 	
+ 	
+ }
+
+ .businessplan-area{
+ 	padding: 40px 0px;
+ }
+
+ .businessplanContent{
+ 	padding: 100px 50px 100px 50px;
+ }
